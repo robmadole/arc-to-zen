@@ -65,3 +65,7 @@ If you have several Zen profiles and none is the default, the script lists them 
 Arc keeps its sidebar in `~/Library/Application Support/Arc/StorableSidebar.json`. Zen keeps Spaces, pinned tabs and folders in `zen-sessions.jsonlz4` in its profile folder. The script reads the first file and writes the second. It uses only the Python standard library.
 
 Tested on macOS with Zen as of October 2026. The Windows and Linux paths are written in but haven't been tried. If Zen changes its session format, the script stops with an error instead of writing a file it doesn't understand. If Zen ever comes up wrong after an import, quit it and run `--undo`.
+
+## License
+
+[WTFPL](LICENSE). Do what the fuck you want.
